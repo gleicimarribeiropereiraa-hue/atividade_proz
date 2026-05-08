@@ -7,7 +7,7 @@ Peça um número e diga se ele está:
 '''
 numero :int =int(input("Digite o número:  "))
 
-if numero == 10 & numero <= 50:
+if numero > 10 and numero < 50:
     print(f" o {numero} Está dentro do intervalo ")
 else:
     print(f"{numero} está fora do intervalo")
